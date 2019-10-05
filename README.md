@@ -1,6 +1,8 @@
 # Plexus
 While searching for a way to view my local development environment on my cell phone I came across with ways to bind my computers IP to a rails sever to be able to view through my local host through my cell phone. 
 
+This gem pulls and parses the ip of the local machine and binds it to a rails server
+
 ## Installation
 
 Add this line to your application's Gemfile:
