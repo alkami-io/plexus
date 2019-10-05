@@ -1,15 +1,12 @@
 # Plexus
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/plexus`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+While searching for a way to view my local development environment on my cell phone I came across with ways to bind my computers IP to a rails sever to be able to view through my local host through my cell phone. 
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'plexus'
+gem 'plexus', git: "https://github.com/alkami-io/plexus"
 ```
 
 And then execute:
@@ -22,7 +19,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Coming soon. 
 
 ## Development
 
