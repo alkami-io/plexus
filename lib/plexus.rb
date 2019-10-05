@@ -5,14 +5,14 @@ require "open3"
 module Plexus
   class Error < StandardError; end
 
-  class IpAddress
+  class Server
     attr_reader :ip_address
 
     def initialize
       @ip_address = get_ip_address
     end
 
-    def start_bound_server
+    def start_server
       puts "starting rails server bound to ip " + ip_address
       system("rails s -b #{ip_address}")
     end

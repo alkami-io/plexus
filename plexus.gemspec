@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["alkami-io"]
   spec.email         = ["robert@alkami.io"]
 
-  spec.summary       = %q{Starts a rails server binded to your local IP for your local rails development}
-  spec.description   = %q{Start a rails server binded to your local IP for running local env on a tethered ios mobile device}
-  spec.homepage      = "https://www.github.com/alkami-io"
+  spec.summary       = %q{Starts a rails server bound to your local IP for your local rails development}
+  spec.description   = %q{Start a rails server bound to your local IP for running local env on a tethered ios mobile device}
+  spec.homepage      = "https://www.github.com/alkami-io/plexus"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -38,6 +38,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.17"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.2"
-  spec.add_development_dependency "pry"
-  spec.add_development_dependency "daemons"
+  spec.add_development_dependency "pry", "~> 0.12.2"
 end
